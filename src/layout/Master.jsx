@@ -23,7 +23,7 @@ const Master = () => {
             return;
         }
         const checkReset = characters.some((ele) => {
-            return ele.score >= 100;
+            return ele.score >= 10;
         });
         if (checkReset) {
             return;

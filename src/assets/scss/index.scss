@@ -6,7 +6,7 @@
     width: 100%;
     max-width: 1030px;
     padding: 15px 0;
-    margin: 0 auto;
+    margin: 20vh auto 0;
 }
 
 .game {
@@ -23,11 +23,16 @@
 
         &-score {
             height: 10px;
-            background: green;
-            border: solid 1px #000;
             margin-top: 5px;
-            width: var(--w);
-            transition: .3s;
+            display: flex;
+            gap: 1px;
+
+            .col {
+                width: calc(10% - 0.9px);
+                border: solid 1px #000;
+                background: green;
+                transition: .3s;
+            }
         }
     }
 
