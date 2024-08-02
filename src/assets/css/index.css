@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1030px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.game {
+  border: 2px solid #000;
+  padding: 20px 15px;
+}
+.game__title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.game__char {
+  margin: 15px 0;
+}
+.game__char-score {
+  height: 10px;
+  background: green;
+  border: solid 1px #000;
+  margin-top: 5px;
+  width: var(--w);
+  transition: 0.3s;
+}
+.game__btn-reset {
+  margin-left: 10px;
+}/*# sourceMappingURL=index.css.map */
